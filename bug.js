@@ -1,0 +1,1 @@
+This error typically occurs when you're using Expo's `Image` component with a local image URI that isn't properly formatted.  Expo expects URIs to start with `file:///`.  If your URI is missing this prefix, or if it's pointing to a file that doesn't exist, you'll get this obscure error.
